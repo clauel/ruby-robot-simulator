@@ -19,7 +19,6 @@ class Robot
     end
   end
 
-
   def turn_right
     @bearing
     i = 0
@@ -64,6 +63,8 @@ class Robot
 
 end
 
+
+
 class Simulator
 
   def initialize
@@ -101,12 +102,8 @@ class Simulator
       when :advance
         robot.advance
       end
-
     }
-
-
   end
-
 end
 
 # robot1 = Robot.new
